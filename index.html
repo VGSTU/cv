@@ -3,63 +3,89 @@
 
 <head>
   <meta charset="utf-8">
-  <title>William's Personal Site</title>
+  <title>William Zhou</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="image/Photo_Zhou_Junwei.jpg" alt="William profile picture"></td>
-      <td>
-        <h1>William Zhou</h1>
-        <p><a href="http://www.ids.sys.i.kyoto-u.ac.jp/"><em>Integrated Dynamical Systems Lab </em></a>
-          <strong>Master 1</strong> <br>
-          <em>Systems Science Department</em><br>
-          <em>Graduate School of Informatics</em><br>
-          <em><strong>Kyoto University</strong></em><br>
-        </p>
-      </td>
-    </tr>
-  </table>
-  <p>I am William Zhou, from Shanghai, China. I like coffe and playing video games.</p>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>(Current) Systems Science Department, Graduate School of Informatics, Kyoto University</li>
-    <li>Department of Aeronautics and Astronautics, Department of Engineering, Kyushu University</li>
-    <li>Highschool Affiliated to Fudan University</li>
-  </ul>
-  <hr>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Video games</li>
-    <li>Travelling</li>
-    <li>Coffee</li>
-  </ol>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Driving</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Photograpy</td>
-      <td>⭐⭐⭐★★</td>
-    </tr>
-    <tr>
-      <td>Gaming</td>
-      <td>⭐⭐⭐⭐★</td>
-    </tr>
-    <tr>
-      <td>Coding</td>
-      <td>⭐⭐⭐⭐★</td>
-    </tr>
-  </table>
-  <hr>
-  <p>
-    <a href="contact.html">Contact Me</a>
-  </p>
+  <div class="top-container">
+    <img class="plane" src="images/plane.png" alt="plane-img">
+    <h1>I'm William.</h1>
+    <h2>a programmer.</h2>
+    <img class="cargodrone" src="images/cargodrone.png" alt="cargodrone-img">
+    <img class="city" src="images/city.png" alt="city-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/Photo_Zhou_Junwei.jpg" alt="profile-img">
+      <h2>Hello.</h2>
+
+      <p class="introduction">I'm William Zhou, an international student from Shanghai, China. I'm enrolling in the system science master course at Kyoto University. Meantime, I have great interest in programming and aims to become a web/software engineer.</p>
+    </div>
+    <hr>
+    <div class="education">
+      <h2>Education</h2>
+      <table class="school" cellspacing="10">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>School</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022~</td>
+            <td>Systems Science Department<br>Graduate School of Informatics<br>Kyoto University</td>
+          </tr>
+          <tr>
+            <td>2018~2022</td>
+            <td>Department of Aeronautics and Astronautics<br>Department of Engineering<br>Kyushu University</td>
+          </tr>
+          <tr>
+            <td>2014~2017</td>
+            <td>Highschool Affiliated to Fudan University</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="icon-programming" src="images/programming.png" alt="programming-img">
+        <h3>Programming</h3>
+        <p>I have been practicing C language and MATLAB during my university study. And I also took up Python from the start of my master course and have had some experience in machine learning till now. Meanwhile, I'm also studying web development and this webpage is my first project. </p>
+      </div>
+      <div class="skill-row">
+        <img class="icon-drone" src="images/drone.png" alt="drone-img">
+        <h3>Crafting</h3>
+        <p>I'm not only good at software field but also at hardware field. I'm capable from reparing bikes to assembling my own desktop. Recently I assembled the drone for my master course experiments.</p>
+      </div>
+      <div class="skill-row">
+        <img class="icon-guitar" src="images/guitar.png" alt="guitar-img">
+        <h3>Guitar</h3>
+        <p>Music has been my hobby for a long time. I played guitar and bass in the school band during senior highschool. And I also joined the acoustic guitar club during the first two years in the university.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you want to know more about me.</h3>
+      <p class="contact-message">Interested in my ablities? Welcome to contact me and give me a chance to prove myself!</p>
+      <a class="btn" href="mailto:williamvg21@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://github.com/VGSTU">Github</a>
+    <a class="footer-link" href="http://www.ids.sys.i.kyoto-u.ac.jp/members.html">Laboratory</a>
+    <p class="copyright">© 2022 William Zhou</p>
+  </div>
 </body>
 
 </html>
